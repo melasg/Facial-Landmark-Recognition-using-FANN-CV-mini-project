@@ -64,16 +64,17 @@ Image Transformations with `numpy`:
 
   This project requires a lot of software dependencies, therefore I suggest [this guide](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/) and creating a container-ized solution to the dependency problem through `pip` and `virtualenv`. I used pycharm to generate a `virtualenv` on the remote laptop and installed everything locally through the debian package manager on the Pi (most of the dependencies come shipped with Raspbian already).
   * `numpy`
-  * `Image` (a lot of other projects use PIL/pillow but that's lame)
-  * `OpenVino`
+  * `Image` (a lot of other projects use PIL/pillow but that's lame _and_ depreciated!)
+  * `OpenVINO`
+  * `matplotlib`
   * `Inference Engine`
   * `PyGame`
   * `OpenCV`
   * `dlib`
 
 ### (Open Source) Datasets referenced
-
   * [Labelled Pupils in the Wild (LPW)](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/labelled-pupils-in-the-wild-lpw/) 
   * [Gaze Estimation in the Wild (MPIIGaze)](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild/)
   * [FANN](http://leenissen.dk/fann/wp/)
   * [GazeCapture](https://gazecapture.csail.mit.edu/)
+  * So, I actually had more references here, but both my libreoffice file / pycharm did not save any version of it I guess, so those are all gone. They were just links to wikipedia/wolframalpha/openCV/openVINO articles on the specific models and how to train them, so forth. I guess not useful for the graders, but it would have been good reference for me or anyone who looks at this if it's public. Perhaps I will re-find them but I am way too lazy right now and I definitely can't remember what I linked specifically off the top of my head.
