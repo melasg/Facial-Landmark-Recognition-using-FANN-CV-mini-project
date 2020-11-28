@@ -66,6 +66,7 @@ Image Transformations with `numpy`:
   * `numpy`
   * `Image` (a lot of other projects use PIL/pillow but that's lame _and_ depreciated!)
   * `OpenVINO`
+  * `Adaboost` (To train HAAR Cascade classifiers)
   * `matplotlib`
   * `Inference Engine`
   * `PyGame`
@@ -77,4 +78,11 @@ Image Transformations with `numpy`:
   * [Gaze Estimation in the Wild (MPIIGaze)](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild/)
   * [FANN](http://leenissen.dk/fann/wp/)
   * [GazeCapture](https://gazecapture.csail.mit.edu/)
+  * [OpenCV library](http://opencv.willowgarage.com/wiki/)
+  * [LC Technologies](http://www.eyegaze.com)
+  * [ITU Gaze Tracker](http://www.gazegroup.org)
+  * [The BioID database](http://support.bioid.com/downloads/facedb/index.php)
+  * [ANN](http://www.cs.umd.edu/%7Emount/ANN/)
+  * [FaceScrub](http://vintage.winklerbros.net/facescrub.html)
+  * [VGG](http://www.robots.ox.ac.uk/~vgg/data/vgg_face/)
   * So, I actually had more references here, but both my libreoffice file / pycharm did not save any version of it I guess, so those are all gone. They were just links to wikipedia/wolframalpha/openCV/openVINO articles on the specific models and how to train them, so forth. I guess not useful for the graders, but it would have been good reference for me or anyone who looks at this if it's public. Perhaps I will re-find them but I am way too lazy right now and I definitely can't remember what I linked specifically off the top of my head.
