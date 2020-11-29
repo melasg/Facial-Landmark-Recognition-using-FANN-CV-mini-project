@@ -64,16 +64,17 @@ Image Transformations with `numpy`:
 
   This project requires a lot of software dependencies, therefore I suggest [this guide](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/) and creating a container-ized solution to the dependency problem through `pip` and `virtualenv`. I used pycharm to generate a `virtualenv` on the remote laptop and installed everything locally through the debian package manager on the Pi (most of the dependencies come shipped with Raspbian already).
   * `numpy`
-  * `Image` (a lot of other projects use PIL/pillow but that's lame _and_ depreciated!)
+  * `imutils`
   * `OpenVINO`
-  * `Adaboost` (To train HAAR Cascade classifiers)
-  * `matplotlib`
-  * `Inference Engine`
-  * `PyGame`
   * `OpenCV`
+  * `tensorflow`
+  * `matplotlib`
   * `dlib`
+  * `PyGame`
+  * `Image` (a lot of other projects use PIL/pillow but that's lame _and_ depreciated!)
 
 ### (Open Source) Datasets referenced
+  * [TensorFlow](https://www.tensorflow.org/lite/models/object_detection/overview)
   * [Labelled Pupils in the Wild (LPW)](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/labelled-pupils-in-the-wild-lpw/) 
   * [Gaze Estimation in the Wild (MPIIGaze)](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild/)
   * [FANN](http://leenissen.dk/fann/wp/)
