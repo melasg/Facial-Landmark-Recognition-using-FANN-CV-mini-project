@@ -23,7 +23,7 @@ This is my first attempt at an eye tracker using commodity software (because I b
 
 ### Algorithm mockup
 
-![img1](img/algorithm-detail.png)
+![img1](figures/algorithm-detail.png)
 
 ### Estimation with _k_-Nearest-Neighbors algorithm
   - Convert searches to a _k_-NN model to estimate gaze direction.
@@ -33,7 +33,7 @@ This is my first attempt at an eye tracker using commodity software (because I b
   - Take the median of their corresponding labels = output.
   - Output goes to mouse implementation for controlling camera axes
 
-![img2](img/idk_more_diagrams.png)
+![img2](figures/idk_more_diagrams.png)
 
 ## Implementation
 ### 
