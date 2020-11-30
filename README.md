@@ -68,6 +68,7 @@ Image Transformations with `numpy`:
   * `OpenVINO`
   * `OpenCV`
   * `tensorflow`
+  * `pyautogui`
   * `matplotlib`
   * `dlib`
   * `PyGame`
