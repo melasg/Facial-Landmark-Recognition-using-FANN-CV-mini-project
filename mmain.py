@@ -58,7 +58,7 @@ while 1:
                 # draw the center of the circle
                 cv2.circle(roi_color2,(i[0],i[1]),2,(255,255,255),3)
         cv2.imshow('YUGA', img)
-        if cv2.waitKey(30) & 0xFF == ord('q'):
+        if cv2.waitKey(1) & 0xFF == ord('q'):
     break
     ## [ RESULTS ]
         ## algorithm stuff
