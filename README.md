@@ -1,11 +1,7 @@
-# YUGA: a non commercial embedded pupil estimation as simulated virtual input for video games 
+# An eye tracker (using k-NN classification and PCA/LDA feature extraction) born out of survival, speed, and necessity.
 
-## An eye tracker (using k-NN classification and PCA/LDA feature extraction) born out of survival, speed, and necessity.
+## (CS122A Project) 
 
-### About the name
-
-YUGA is an acronym born out of the combination of the following words: e*Y*e p*U*pil *G*aze tr*A*cker
-~~Also it's a reference to the Yu-Gi-Oh! protagonist of the newest franchise entry, Yuga of Yu-Gi-Oh! Sevens. Even though I don't really like the new entry at all and think Yuga's a stupid name (I tried to think of something that would rhyme with VRAINS, which I enjoyed much better, but only obtained TRAINS which sounded dumb to me) I can't think of anything else and am having my quarter life Yu-Gi-Oh! crisis.~~
 This is my first attempt at an eye tracker using commodity software (because I bought the wrong camera) using k-NN framework to track the pupil. Using OpenCV as simulated input for camera axis movement.
  
  - **Author:** Melody Asghari
